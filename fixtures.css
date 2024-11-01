@@ -1,0 +1,83 @@
+div.sfc_fixtures table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+div.sfc_fixtures table th,
+div.sfc_fixtures table td {
+    text-align: left;
+    padding: 2px 5px;
+}
+
+div.sfc_fixtures table th.sfc_badge,
+div.sfc_fixtures table td.sfc_badge {
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    line-height: 25px;
+}
+
+div.sfc_fixtures table th.sfc_badge.sfc_home,
+div.sfc_fixtures table td.sfc_badge.sfc_home {
+    background-position: center right;
+    padding-right: 25px !important;
+}
+
+div.sfc_fixtures table th.sfc_badge.sfc_away,
+div.sfc_fixtures table td.sfc_badge.sfc_away {
+    background-position: center left;
+    padding-left: 25px !important;
+}
+
+div.sfc_fixtures table th.sfc_team,
+div.sfc_fixtures table td.sfc_team {
+    width: 50%;
+}
+
+div.sfc_fixtures table th.sfc_home,
+div.sfc_fixtures table td.sfc_home {
+    text-align: right;
+}
+
+div.sfc_fixtures table th.sfc_time,
+div.sfc_fixtures table td.sfc_time {
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.sfc_fixtures table th.sfc_highlight,
+div.sfc_fixtures table td.sfc_highlight {
+    font-weight: bold;
+}
+
+div.sfc_fixtures table th span,
+div.sfc_fixtures table td span {
+    color: silver;
+}
+
+div.sfc_fixtures table th span.sfc_competition,
+div.sfc_fixtures table td span.sfc_competition {
+    font-weight: normal;
+    float: right;
+}
+
+div.sfc_fixtures table thead th {
+    text-transform: uppercase;
+    font-size: small;
+    background-color: silver;
+}
+
+div.sfc_fixtures div.sfc_footer {
+    display: block !important;
+    opacity: 1 !important;
+    text-align: right;
+    visibility: visible !important;
+}
+
+@media screen and (max-width: 767px) {
+    div.sfc_fixtures {
+        width: 100%;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
